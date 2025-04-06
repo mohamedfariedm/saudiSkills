@@ -1,0 +1,84 @@
+{
+  "meta_data": {
+    "title": "الأقسام"
+  },
+  "page_header": {
+    "title": "الأقسام",
+    "subtitle": "أقسامك",
+    "actions": { "create": "اضافة قسم" }
+  },
+  "table": {
+    "_id": "المعرف",
+    "name": "الاسم",
+    "order": "الترتيب",
+    "active": "الحالة",
+    "active_true": "نشط",
+    "active_false": "غير نشط",
+    "image": "الصورة",
+    "createdAt": "تاريخ الإنشاء",
+    "updatedAt": "تاريخ التحديث",
+    "filterFields": {
+      "search": { "name": { "placeholder": "ابحث بالاسم" } },
+      "sidebarFilters": {
+        "status": {
+          "label": "الحالة",
+          "placeholder": "اختر الحالة",
+          "options": [
+            { "label": "نشط", "value": "true" },
+            { "label": "غير نشط", "value": "false" }
+          ]
+        }
+      }
+    },
+    "formFields": {
+      "step_1": {
+        "name_en": {
+          "label": "الاسم (بالإنجليزية)",
+          "placeholder": "أدخل اسم القسم بالإنجليزية"
+        },
+        "name_ar": {
+          "label": "الاسم (بالعربية)",
+          "placeholder": "أدخل اسم القسم بالعربية"
+        },
+        "status": {
+          "label": "الحالة",
+          "placeholder": "اختر الحالة",
+          "options": [
+            { "label": "نشط", "value": "true" },
+            { "label": "غير نشط", "value": "false" }
+          ]
+        },
+        "order": {
+          "label": "الترتيب",
+          "placeholder": "أدخل الترتيب"
+        },
+        "image": {
+          "label": "الصورة"
+        }
+      }
+    }
+  },
+  "validations": {
+    "name_en": {
+      "required": "الاسم بالإنجليزية مطلوب.",
+      "pattern": "يسمح فقط بالحروف الإنجليزية."
+    },
+    "name_ar": {
+      "required": "الاسم بالعربية مطلوب.",
+      "pattern": "يسمح فقط بالحروف العربية."
+    },
+    "active": {
+      "required": "الحالة مطلوبة."
+    },
+    "order": {
+      "pattern": "برجاء ادخال رقم صحيح للترتيب.",
+      "integer": "يجب أن يكون الترتيب عددًا صحيحًا.",
+      "min": "يجب أن يكون الترتيب على الأقل 1."
+    },
+    "image": {
+      "required": "الصورة مطلوبة.",
+      "pattern": "نوع الملف غير مسموح به.",
+      "size": "يجب أن يكون حجم الصورة أقل من 5MB."
+    }
+  }
+}

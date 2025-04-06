@@ -1,0 +1,64 @@
+{
+  "meta_data": {
+    "title": "إنشاء قسم"
+  },
+  "page_header": {
+    "title": "إنشاء قسم"
+  },
+  "form": {
+    "title_create": "إنشاء قسم جديد",
+    "title_update": "تحديث القسم",
+    "description": "إدارة إعدادات القسم وساعات العمل والموقع",
+    "step_1": {
+      "label": "معلومات عامة",
+      "name_en": {
+        "label": "الاسم (بالإنجليزية)",
+        "placeholder": "أدخل اسم القسم بالإنجليزية"
+      },
+      "name_ar": {
+        "label": "الاسم (بالعربية)",
+        "placeholder": "أدخل اسم القسم بالعربية"
+      },
+      "address_en": {
+        "label": "العنوان (بالإنجليزية)",
+        "placeholder": "أدخل عنوان القسم بالإنجليزية"
+      },
+      "address_ar": {
+        "label": "العنوان (بالعربية)",
+        "placeholder": "أدخل عنوان القسم بالعربية"
+      },
+      "description_en": {
+        "label": "الوصف (بالإنجليزية)",
+        "placeholder": "أدخل وصف القسم بالإنجليزية"
+      },
+      "description_ar": {
+        "label": "الوصف (بالعربية)",
+        "placeholder": "أدخل وصف القسم بالعربية"
+      },
+      "referenceCode": {
+        "label": "كود المرجع",
+        "placeholder": "أدخل كود مرجع القسم"
+      },
+      "phone": {
+        "label": "الهاتف",
+        "placeholder": "أدخل هاتف القسم"
+      }
+    },
+    "SubmitBtnComponent": { "value": "تسجيل الدخول" }
+  },
+  "validations": {
+    "email": {
+      "required": "البريد الإلكتروني مطلوب.",
+      "pattern": "عنوان البريد الإلكتروني غير صحيح."
+    },
+    "password": {
+      "required": "كلمة المرور مطلوبة.",
+      "minLength": "الحد الأدنى لطول كلمة المرور هو 8 أحرف."
+    }
+  },
+  "toasts": {
+    "login_success": "تم تسجيل الدخول بنجاح!",
+    "login_error": "بيانات الاعتماد غير صحيحة."
+  }
+}
+

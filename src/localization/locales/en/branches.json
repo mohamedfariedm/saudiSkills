@@ -1,0 +1,69 @@
+{
+  "meta_data": {
+    "title": "Branches"
+  },
+  "page_header": {
+    "title": "Branches",
+    "subtitle": "your branches",
+    "actions": { "create": "Create branch" }
+  },
+  "table": {
+    "_id": "ID",
+    "referenceCode": "Reference Code",
+    "name": "Name",
+    "address": "Address",
+    "phone": "Phone Number",
+    "active": "Status",
+    "active_true": "Open",
+    "active_false": "Closed",
+    "archive": "Archive",
+    "archive_true": "Yes",
+    "archive_false": "No",
+    "pickup": "Pickup",
+    "pickup_true": "Yes",
+    "pickup_false": "No",
+    "carPickup": "Car Pickup",
+    "carPickup_true": "Yes",
+    "carPickup_false": "No",
+    "autoConfirmation": "Auto Confirmation",
+    "autoConfirmation_true": "Yes",
+    "autoConfirmation_false": "No",
+    "autoCancellation": "Auto Cancellation",
+    "autoCancellation_true": "Yes",
+    "autoCancellation_false": "No",
+    "autoCancellationMinutes": "Auto Cancellation Minutes",
+    "subscription": "Subscription",
+    "subscription_true": "Yes",
+    "subscription_false": "No",
+    "delivery": "Delivery",
+    "delivery_true": "Yes",
+    "delivery_false": "No",
+    "deliveryFees": "Delivery Fees",
+    "mapLocation": "Map Location",
+    "noLocationOrder": "Location Orders",
+    "mapOrder": "Map Order",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "filterFields": {
+      "search": { "name": { "placeholder": "Search by name" } },
+      "sidebarFilters": {
+        "name": {
+          "label": "Search by name",
+          "placeholder": "EX. Branch name"
+        },
+        "phoneNumber": {
+          "label": "Search by phone number",
+          "placeholder": "EX. 0123456789"
+        },
+        "status": {
+          "label": "Status",
+          "placeholder": "Select Status",
+          "options": [
+            { "label": "Active", "value": "true" },
+            { "label": "Inactive", "value": "false" }
+          ]
+        }
+      }
+    }
+  }
+}

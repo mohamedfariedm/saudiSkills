@@ -1,0 +1,6 @@
+{
+  "NotFound": {
+    "meta_data_title": "Page Not Found - 404"
+  },
+  "table": { "actions": { "edit": "Edit", "view": "View", "delete": "Delete" } }
+}

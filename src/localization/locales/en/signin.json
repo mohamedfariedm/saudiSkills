@@ -1,0 +1,42 @@
+{
+  "meta_data": {
+    "title": "Sign In"
+  },
+  "title": "Welcome Back!",
+  "subtitle": "Get in to your account.",
+  "intro": {
+    "title": "Enjoy balance in life",
+    "subtitle": "The balance in life requires balance in your choices.",
+    "description": "Providing fresh and healthy products with the highest quality standards.",
+    "about_title": "Sahl Solution",
+    "about_subtitle": "A Saudi company established in 2014"
+  },
+  "form": {
+    "email": {
+      "label": "Email",
+      "placeholder": "Email"
+    },
+
+    "password": {
+      "label": "Password",
+      "placeholder": "Password"
+    },
+    "SubmitBtnComponent": { "value": "Log In" }
+  },
+
+  "validations": {
+    "email": {
+      "required": "Email is required.",
+      "pattern": "Invalid Email Address."
+    },
+    "password": {
+      "required": "Password is required.",
+      "minLength": "Password Min length is 8 char."
+    }
+  },
+
+  "toasts": {
+    "login_success": "Logged in Successfully!",
+    "login_error": "Invalid Credentials."
+  }
+}

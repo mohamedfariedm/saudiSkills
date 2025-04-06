@@ -1,0 +1,66 @@
+{
+  "meta_data": {
+    "title": "Create Branch"
+  },
+  "page_header": {
+    "title": "Create Branch"
+  },
+  "form": {
+    "title_create": "Create a new branch",
+    "title_update": "Update branch",
+    "description": "Manage your branch settings, working hours, and location",
+    "step_1": {
+      "label": "General Info",
+      "name_en": {
+        "label": "Name (English)",
+        "placeholder": "Enter branch name in English"
+      },
+      "name_ar": {
+        "label": "Name (Arabic)",
+        "placeholder": "Enter branch name in Arabic"
+      },
+      "address_en": {
+        "label": "Address (English)",
+        "placeholder": "Enter branch address in English"
+      },
+      "address_ar": {
+        "label": "Address (Arabic)",
+        "placeholder": "Enter branch address in Arabic"
+      },
+      "description_en": {
+        "label": "Description (English)",
+        "placeholder": "Enter branch description in English"
+      },
+      "description_ar": {
+        "label": "Description (Arabic)",
+        "placeholder": "Enter branch description in Arabic"
+      },
+      "referenceCode": {
+        "label": "Reference Code",
+        "placeholder": "Enter branch reference code"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "Enter branch phone"
+      }
+    },
+
+    "SubmitBtnComponent": { "value": "Log In" }
+  },
+
+  "validations": {
+    "email": {
+      "required": "Email is required.",
+      "pattern": "Invalid Email Address."
+    },
+    "password": {
+      "required": "Password is required.",
+      "minLength": "Password Min length is 8 char."
+    }
+  },
+
+  "toasts": {
+    "login_success": "Logged in Successfully!",
+    "login_error": "Invalid Credentials."
+  }
+}

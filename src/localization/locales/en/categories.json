@@ -1,0 +1,84 @@
+{
+  "meta_data": {
+    "title": "Categories"
+  },
+  "page_header": {
+    "title": "Categories",
+    "subtitle": "your Categories",
+    "actions": { "create": "Create category" }
+  },
+  "table": {
+    "_id": "ID",
+    "name": "Name",
+    "order": "Order",
+    "active": "Status",
+    "active_true": "Active",
+    "active_false": "Inactive",
+    "image": "Image",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "filterFields": {
+      "search": { "name": { "placeholder": "Search by name" } },
+      "sidebarFilters": {
+        "status": {
+          "label": "Status",
+          "placeholder": "Select Status",
+          "options": [
+            { "label": "Active", "value": "true" },
+            { "label": "Inactive", "value": "false" }
+          ]
+        }
+      }
+    },
+    "formFields": {
+      "step_1": {
+        "name_en": {
+          "label": "Name (English)",
+          "placeholder": "Enter category name in English"
+        },
+        "name_ar": {
+          "label": "Name (Arabic)",
+          "placeholder": "Enter category name in Arabic"
+        },
+        "status": {
+          "label": "Status",
+          "placeholder": "Select Status",
+          "options": [
+            { "label": "Active", "value": "true" },
+            { "label": "Inactive", "value": "false" }
+          ]
+        },
+        "order": {
+          "label": "Order",
+          "placeholder": "Enter order"
+        },
+        "image": {
+          "label": "Image"
+        }
+      }
+    }
+  },
+  "validations": {
+    "name_en": {
+      "required": "English name is required.",
+      "pattern": "Only English letters are allowed."
+    },
+    "name_ar": {
+      "required": "Arabic name is required.",
+      "pattern": "Only Arabic letters are allowed."
+    },
+    "active": {
+      "required": "Status is required."
+    },
+    "order": {
+      "pattern": "Valid order number is required.",
+      "integer": "Order must be an integer.",
+      "min": "Order must be at least 1."
+    },
+    "image": {
+      "required": "Image is required.",
+      "pattern": "File type is not allowed.",
+      "size": "Image size must be less than 5MB."
+    }
+  }
+}

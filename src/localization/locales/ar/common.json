@@ -1,0 +1,6 @@
+{
+  "NotFound": {
+    "meta_data_title": "صفحة غير موجودة - 404"
+  },
+  "table": { "actions": { "edit": "تعديل", "view": "عرض", "delete": "حذف" } }
+}
